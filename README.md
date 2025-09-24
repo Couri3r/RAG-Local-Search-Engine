@@ -56,15 +56,16 @@ The application is built with a decoupled frontend-backend architecture, fully c
     ```
     The first time you run this, it will take several minutes to download the base images and build your application containers. Subsequent startups will be much faster due to caching.
 
-### 3. Place Your Files in the Search Directory
+### 4. Place Your Files in the Search Directory
 
 **This is a critical step.** Because the application runs inside a container, it can only see files in directories that are explicitly shared with it.
 
 -   In the main project folder, you will find a directory named `documents`. (If it's not there you can just create it yourself).
 -   **Copy any files or folders** you want to search into this `documents` directory.
 -   The application can only see and index content placed inside this folder.
+-   After having everything you need in the `documents` directory, just type `/documents` into the box and hit re-inedx.
 
-4.  **Download an LLM Model:**
+5.  **Download an LLM Model:**
     The Ollama container starts empty. Open a **new, separate terminal** and use the `docker exec` command to pull your desired model into the running container.
     ```bash
     # Find your container's name first
@@ -75,11 +76,11 @@ The application is built with a decoupled frontend-backend architecture, fully c
     ```
     You only need to do this once. The model will be persisted in a Docker volume.
 
-5.  **Access the Application:**
+6.  **Access the Application:**
     Open your web browser and navigate to:
     **`http://localhost:3000`**
 
-6.  **First Use:**
+7.  **First Use:**
     Use the sidebar to enter an **absolute path** to a directory on your computer that you wish to index, then click "Re-index". Once the indexing is complete, you can start asking questions!
 
 ### How to Stop the Application
