@@ -9,6 +9,8 @@ myenv/
 .idea/
 *.swp
 
+documents/
+
 faiss_index.bin
 metadata.pkl
 text_classifier.joblib
