@@ -12,8 +12,7 @@ services:
 
     volumes:
       - ./backend/src:/app/src
-      - ./faiss_index.bin:/app/faiss_index.bin
-      - ./metadata.pkl:/app/metadata.pkl
+      -  ./backend/data:/data
       - ./documents:/documents
 
     environment:

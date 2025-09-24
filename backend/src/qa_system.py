@@ -4,8 +4,9 @@ import pickle
 import ollama
 from sentence_transformers import SentenceTransformer
 
-INDEX_PATH = "faiss_index.bin"
-METADATA_PATH = "metadata.pkl"
+DATA_DIR = "/data"
+INDEX_PATH = os.path.join(DATA_DIR, "faiss_index.bin")
+METADATA_PATH = os.path.join(DATA_DIR, "metadata.pkl")
 MODEL_NAME = "BAAI/bge-small-en-v1.5" 
 LLM_MODEL_NAME = "llama3.2:3b"     
 
@@ -14,34 +15,44 @@ class RAGSystem:
     def __init__(self):
         print("Starting RAG system")
 
-        try:
-            self.index = faiss.read_index(INDEX_PATH)
-            print(f"FAISS index loaded with {self.index.ntotal} vectors")
+        self.index = None
+        self.metadata = []
+        self.embedding_model = None
 
-        except Exception as e:
-            print("Error: Could not load FAISS Index from {INDEX_PATH}. Run vector.py first")
+        if os.path.exists(INDEX_PATH) and os.path.exists(METADATA_PATH):
+            try:
+                print("Found existing index files. Loading...")
+                self.index = faiss.read_index(INDEX_PATH)
 
-            raise
-        
+                with open(METADATA_PATH, "rb") as f:
+                    self.metadata = pickle.load(f)
+                    print (f"FAISS index and metadata loaded successfully with {len(self.metadata)} chunks.")
+
+            except Exception as e:
+                print(f"Error loading existing index files: {e}")
+
+                self.index = None
+                self.metadata = []
+
+        else:
+            print("No index found. System is starting empty. Please use the re-index endpoint")
+
         try:
-            with open(METADATA_PATH, "rb") as f:
-               
-                self.metadata = pickle.load(f) 
-            print(f"Metadata loaded successfully for {len(self.metadata)} chunks.")
-        except Exception as e:
-            print(f"Errpr: Could not load metadata from '{METADATA_PATH}'.")
-            raise
-        
-        try:
+
             self.embedding_model = SentenceTransformer(MODEL_NAME)
-            print("Sentence transformer model loaded")  
+            print("Sentence transformer model loaded successfully.")
 
         except Exception as e:
-            print(f"Error: Could not load model {MODEL_NAME}")
+            print("Could not load the sentence transformer model")
 
-            raise
+        print("Rag system loaded")
+    
 
-        print("RAG system ready")
+        
+        
+        
+        
+        
 
 
     def ask(self,query: str, k: int = 4) -> dict:

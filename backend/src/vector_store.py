@@ -14,9 +14,9 @@ CHUNK_OVERLAP = 75
 
 import os
 
-BASE_DIR = os.path.dirname(__file__)
-INDEX_PATH = os.path.join(BASE_DIR, "faiss_index.bin")
-METADATA_PATH = os.path.join(BASE_DIR, "metadata.pkl")
+DATA_DIR = "/data"
+INDEX_PATH = os.path.join(DATA_DIR, "faiss_index.bin")
+METADATA_PATH = os.path.join(DATA_DIR, "metadata.pkl")
 
 
 def build_index(directory: str) -> list[str]: 

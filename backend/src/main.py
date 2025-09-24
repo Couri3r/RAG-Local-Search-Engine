@@ -69,6 +69,13 @@ def read_root():
 def search_documents(search_query: SearchQuery):
     rag_system = ml_models.get("rag_system")
 
+    if not rag_system.index or not rag_system.metadata:
+        return {
+            "answer": "The search index is empty. Please use the sidebar to re-index a directory first.",
+            "sources": []
+        }
+    
+
     result = rag_system.ask(query=search_query.query, k = search_query.k)
     return result
 
