@@ -1,0 +1,11 @@
+NOTICE OF NON-DISCLOSURE AGREEMENT
+
+This Non-Disclosure Agreement ("Agreement") is entered into on [DATE] ("Effective Date") by and between [DISCLOSING PARTY'S NAME] (the "Disclosing Party") with a principal place of business at [ADDRESS] and [RECIPIENT'S NAME] (the "Recipient"), with a principal place of business at [ADDRESS].
+
+In consideration of the mutual covenants contained herein, the Disclosing Party agrees to disclose certain confidential information ("Confidential Information") to the Recipient. The Confidential Information includes, without limitation, all trade secrets, know-how, technical data, business strategies, and other proprietary information disclosed or made available by the Disclosing Party during the term of this Agreement ("Term"). The Term shall commence on the Effective Date and continue in effect for a period of two (2) years from the Effective Date, unless terminated earlier in accordance with Section 5 below.
+
+The Recipient agrees to hold the Confidential Information in strict confidence and not disclose it to any third party without the prior written consent of the Disclosing Party. The Recipient shall take all necessary measures to protect the confidentiality of the Confidential Information, including but not limited to, using physical security measures, encryption, and access controls to prevent unauthorized disclosure.
+
+The parties agree that any breach of this Agreement by the Recipient will cause irreparable harm to the Disclosing Party, for which monetary damages would be inadequate. In addition to any other remedies available at law, the Disclosing Party shall be entitled to injunctive relief to enforce the confidentiality obligations set forth in this Agreement.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first above written.

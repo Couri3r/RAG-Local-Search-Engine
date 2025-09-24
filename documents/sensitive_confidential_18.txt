@@ -1,0 +1,37 @@
+**Strictly Confidential - HR Use Only**
+
+Department Employee Salaries and Bonuses:
+
+1. John Doe, Department Manager
+   - Annual Salary: $120,000
+   - Quarterly Bonus (4): $5,000 x 4 = $20,000
+   - Total Compensation: $140,000
+
+2. Jane Smith, Senior Team Lead
+   - Annual Salary: $90,000
+   - Quarterly Bonus (3): $3,750 x 3 = $11,250
+   - Total Compensation: $101,250
+
+3. Michael Brown, Marketing Specialist
+   - Annual Salary: $60,000
+   - Quarterly Bonus (4): $1,500 x 4 = $6,000
+   - Total Compensation: $66,000
+
+4. Emily Davis, Customer Service Representative
+   - Annual Salary: $45,000
+   - Quarterly Bonus (2): $750 x 2 = $1,500
+   - Total Compensation: $46,500
+
+5. David Lee, Software Developer
+   - Annual Salary: $80,000
+   - Quarterly Bonus (3): $2,500 x 3 = $7,500
+   - Total Compensation: $87,500
+
+6. Sarah Taylor, Graphic Designer
+   - Annual Salary: $50,000
+   - Quarterly Bonus (4): $1,250 x 4 = $5,000
+   - Total Compensation: $55,000
+
+**Please note that this information is for internal use only and should not be shared with external parties or made publicly available.**
+
+[Date]

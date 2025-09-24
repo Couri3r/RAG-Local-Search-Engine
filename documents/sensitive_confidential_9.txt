@@ -1,0 +1,45 @@
+**Patient Diagnosis Summary**
+
+**Patient Name:** Emily J. Smith
+**Date of Birth:** February 12, 1995
+**Medical Record Number:** MR-2023-001
+
+**Patient History:**
+
+Ms. Smith presented with symptoms of chronic lower back pain and bilateral sciatica, which began approximately 6 months prior to presentation. She reported a history of lifting heavy objects at work and engaging in strenuous physical activity.
+
+**Physical Examination:**
+
+* Vital signs: Blood pressure 120/80 mmHg, pulse 90 bpm, temperature 98.6°F (37°C)
+* Musculoskeletal examination revealed tenderness and stiffness in the lower back and buttocks
+* Neurological examination showed decreased sensation in the medial aspect of her right leg
+
+**Patient Diagnosis:**
+
+Based on the physical examination findings and patient history, a diagnosis of lumbar herniated disc with adjacent degenerative disc disease was made. Imaging studies (MRI) confirmed a single-level L4-L5 herniation causing compression on the L5 nerve root.
+
+**Treatment Plan:**
+
+* Conservative management:
+	+ Pain management with ibuprofen 400mg three times daily and oxycodone 10mg three times daily as needed
+	+ Physical therapy with focus on core strengthening, posture correction, and low-impact exercises to improve mobility and reduce pain
+* Interdisciplinary treatment team referral for comprehensive care
+* Follow-up appointments scheduled every 4 weeks
+
+**Medical History:**
+
+Pre-existing conditions:
+* Mild hypertension (controlled)
+* Hyperlipidemia (managed)
+
+No significant allergies or social history noted.
+
+**Physician's Notes:**
+
+Ms. Smith was initially seen in the emergency department with acute worsening of symptoms. Further evaluation and imaging were performed to determine the cause of her pain. Given the conservative management plan, there is a high likelihood of successful outcomes with early intervention. Patient education on proper lifting techniques and exercise modifications will be emphasized.
+
+**Next Appointment:**
+
+Scheduled for February 22, 2023, at 10:00 AM
+
+**Signature:** Dr. Jane Doe, MD

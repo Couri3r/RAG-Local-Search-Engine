@@ -1,0 +1,46 @@
+**Patient Name:** Emily J. Smith
+**Date of Birth:** March 12, 1992
+**Reason for Visit:** Complaints of persistent headaches and fatigue
+
+**Medical History:**
+
+* Past medical history: Hypertension, mild; history of migraines
+* Allergies: None
+* Medications: Lisinopril 10mg daily, ibuprofen as needed
+
+**Patient Diagnosis:**
+
+Based on the patient's presentation, physical examination, and diagnostic testing, a diagnosis of Primary Headache Disorder (PHD) with secondary hypertension is made.
+
+**Symptoms:**
+
+* Frequency: Daily
+* Duration: Prolonged
+* Description: Bilateral headaches described as dull and aching in nature
+* Associated symptoms: Fatigue, mild neck stiffness, and difficulty concentrating
+
+**Diagnostic Testing:**
+
+* Complete Blood Count (CBC): Normal
+* Electrolyte Panel: Slightly elevated sodium levels
+* Magnetic Resonance Imaging (MRI) of the brain: Normal
+
+**Treatment Plan:**
+
+1. **Lifestyle modifications:**
+ * Patient is advised to maintain a consistent sleep schedule, avoid triggers such as stress and certain foods, and engage in regular exercise.
+2. **Medications:**
+ * Lisinopril 10mg daily will be continued for hypertension management
+ * Topiramate 50mg daily will be initiated for PHD symptom management
+3. **Follow-up appointments:**
+ * Scheduled for every 6 weeks to monitor blood pressure and headache frequency
+
+**Physician's Notes:**
+
+The patient presented with a classic presentation of PHD, characterized by daily headaches, fatigue, and mild hypertension. The MRI results are normal, ruling out any underlying structural abnormalities. Further testing, including an echocardiogram, was considered but ultimately unnecessary given the patient's stable cardiovascular profile.
+
+During the appointment, the patient expressed concern about the potential side effects of new medications. Emphasis was placed on the benefits of topiramate in managing PHD symptoms and minimizing future headache episodes. A follow-up appointment has been scheduled to review progress and adjust treatment as needed.
+
+**Additional Notes:**
+
+The patient reported an improvement in fatigue levels following initiation of lisinopril, suggesting potential effectiveness in blood pressure management.
