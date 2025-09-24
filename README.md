@@ -60,7 +60,7 @@ The application is built with a decoupled frontend-backend architecture, fully c
 
 **This is a critical step.** Because the application runs inside a container, it can only see files in directories that are explicitly shared with it.
 
--   In the main project folder, you will find a directory named `documents`.
+-   In the main project folder, you will find a directory named `documents`. (If it's not there you can just create it yourself).
 -   **Copy any files or folders** you want to search into this `documents` directory.
 -   The application can only see and index content placed inside this folder.
 
