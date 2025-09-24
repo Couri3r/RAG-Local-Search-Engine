@@ -81,7 +81,7 @@ The application is built with a decoupled frontend-backend architecture, fully c
     **`http://localhost:3000`**
 
 7.  **First Use:**
-    Use the sidebar to enter an **absolute path** to a directory on your computer that you wish to index, then click "Re-index". Once the indexing is complete, you can start asking questions!
+    Use the sidebar to enter `/documents` to index, then click "Re-index". Once the indexing is complete, you can start asking questions!
 
 ### How to Stop the Application
 
