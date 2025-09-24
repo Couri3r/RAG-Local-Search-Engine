@@ -97,8 +97,12 @@ class RAGSystem:
 
         print(f"Sending prompt to an LLM Model: {LLM_MODEL_NAME}")
 
+        ollama_host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+
+        client = ollama.Client(host=ollama_host)
+
         try:
-            response = ollama.chat(
+            response = client.chat(
                 model = LLM_MODEL_NAME,
                 messages=[{'role': 'user', 'content': prompt}]
             )

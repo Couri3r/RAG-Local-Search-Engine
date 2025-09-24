@@ -56,7 +56,7 @@ def build_index(directory: str) -> list[str]:
 
     if not all_chunks:
         print("No text was found. Aborting index build")
-        return
+        return []
     
     print(f"Total documents processed: {len(all_chunks)}")
 

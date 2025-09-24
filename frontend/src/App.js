@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     const fetchIndexedFiles = async () => {
       try {
-        const response = await fetch(`${API_URL}/indexed-files`);
+        const response = await fetch(`/api/indexed-files`);
         const data = await response.json();
         setIndexedFiles(data.files);
       } catch (error) {
@@ -45,7 +45,7 @@ function App() {
 
     try {
       // Make the POST request to the FastAPI backend's /search endpoint
-      const response = await fetch(`${API_URL}/search`, {
+      const response = await fetch(`/api/search`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -76,6 +76,10 @@ def search_documents(search_query: SearchQuery):
 @app.get("/indexed-files")
 def get_indexed_files():
     rag_system = ml_models.get("rag_system")
+
+    
+
+
     all_source_paths = [chunk['source'] for chunk in rag_system.metadata]
 
     unique_paths = set(all_source_paths)
@@ -92,7 +96,19 @@ def reindex_directory(path: DirectoryPath):
 
     directory = path.directory_path
 
-    indexed_files = build_index(directory)
+
+    try:
+
+        indexed_files = build_index(directory)
+
+        if not indexed_files:
+
+            raise HTTPException(status_code=404, detail=f"no proccessable files were found in directory: {directory}")
+
+    except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e))
+
+
     ml_models["rag_system"] = RAGSystem()
 
     return {

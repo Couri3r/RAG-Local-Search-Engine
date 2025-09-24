@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: rag-app-backend
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - ./backend/src:/app/src
+      - ./faiss_index.bin:/app/faiss_index.bin
+      - ./metadata.pkl:/app/metadata.pkl
+      - ./documents:/documents
+
+    environment:
+      - LLM_MODEL_NAME=llama3.2:3b 
+      - OLLAMA_HOST=http://ollama:11434
+
+    depends_on:
+      - ollama
+
+  ollama:
+    image: ollama/ollama
+    volumes:
+      - ollama_data:/root/.ollama
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+
+    image: rag-app-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  ollama_data:
