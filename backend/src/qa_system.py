@@ -86,6 +86,8 @@ class RAGSystem:
         If the context does not contain the answer, state that you cannot answer the question with the information provided.
         Cite the source filename for each piece of information you use by adding [Source: filename.ext] at the end of the sentence.
 
+        **VERY IMPORTANT INSTRUCTION:** When you cite a source, you MUST only use the filename. For example, if the context says "Source: /documents/reports/quarterly/report_q4.pdf", you must cite it as "[Source: report_q4.pdf]". Do not include the full path.
+
         CONTEXT:
         {context_string}
 
