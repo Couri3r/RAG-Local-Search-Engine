@@ -49,7 +49,13 @@ The application is built with a decoupled frontend-backend architecture, fully c
 2.  **(Optional) Configure the Model:**
     You can change the default LLM by editing the `LLM_MODEL_NAME` environment variable in the `docker-compose.yml` file.
 
-3.  **Build and Run the Application:**
+    ⚠️ **Important Note**  
+    The LLM model name is **hardcoded** as `llama3.2:3b` in `qa_system.py`.  
+    If you are running a different model, the application **will not work** unless you update the code to match your model name.  
+    Please take this into consideration before running the app.
+
+
+4.  **Build and Run the Application:**
     This single command will build the images, create the network, and start all services.
     ```bash
     docker compose up --build
